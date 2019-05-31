@@ -1,0 +1,6 @@
+scipy
+pillow
+pandas
+matplotlib
+plotly
+psutil
