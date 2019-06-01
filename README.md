@@ -12,7 +12,7 @@ Learn about Plotly's orca [here](https://github.com/plotly/orca).
 
 ----
 
-This is an alternative approach to [Mathieu Boudreau's implementation with a Dockerfile](https://github.com/mathieuboudreau/orca-plotly-dockerfile). It will allow using commands in side a Jupyter environment to save Plotly-generated plots as static images in addition the more typical interactive Plotly plot. The static images are good for use elsewhere. And by combining it commandline/scripting it makes it possible to produce a lot of images without saving them by hand from the interactive form.
+This uses an approach alternative to [Mathieu Boudreau's implementation with a Dockerfile](https://github.com/mathieuboudreau/orca-plotly-dockerfile). It will allow using commands in side a Jupyter environment to save Plotly-generated plots as static images in addition the more typical interactive Plotly plot. The static images are good for use elsewhere. And by combining it commandline/scripting it makes it possible to produce a lot of images without saving them by hand from the interactive form.
 
 
 In the example here `requirements.txt` is used for specifying most of the repo-specific dependencies. `postBuild` is uded to handle setting up orca. Additionally, `apt.txt` was used for replacing the first section of the [Mathieu Boudreau's Dockerfile](https://github.com/mathieuboudreau/orca-plotly-dockerfile/blob/master/Dockerfile) to install some critical apt packages. Except for the `postBuild` file these are just lists of needed packages or dependencies, and so they offer a way to more easily customize a repo than editing than a Dockerfile.
