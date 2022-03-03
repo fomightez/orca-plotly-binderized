@@ -9,11 +9,11 @@ Click on any `launch binder` badge on this page to launch an active session that
 
 ----
 
-You may not need this!!!
+You MOST LIKELY DO NOT NEED THIS!!!
 
-Usually using [nbviewer](https://nbviewer.org/), Jupyter's supported notebook viewer, the interactive Plotly plots show up. Although Github's rendering has improved vastly of late, nbviewer remains the way to view and share static versions notebooks that are hosted on GitHub. Compare [this at Github](https://github.com/fomightez/3Dscatter_plot-binder/blob/master/Plotly3d-scatter-plots.ipynb) vs. [on nbviewer](https://nbviewer.org/github/fomightez/3Dscatter_plot-binder/blob/master/Plotly3d-scatter-plots.ipynb). Advise only relying on Github's viewer for a quick preview.
+- Usually using [nbviewer](https://nbviewer.org/), Jupyter's supported notebook viewer, the interactive Plotly plots show up. Although Github's rendering has improved vastly of late, nbviewer remains the way to view and share static versions notebooks that are hosted on GitHub. Compare [this at Github](https://github.com/fomightez/3Dscatter_plot-binder/blob/master/Plotly3d-scatter-plots.ipynb) vs. [on nbviewer](https://nbviewer.org/github/fomightez/3Dscatter_plot-binder/blob/master/Plotly3d-scatter-plots.ipynb). Advise only relying on Github's viewer for a quick preview.
 
-Plus Kaleido is the newest version doing what Orca did.
+- Plus, [Kaleido](https://github.com/plotly/Kaleido) is the successor of Orca, and [you should be using Kaleido presently if you want to generate static versions of Plotly plots](https://github.com/plotly/orca/issues/150#issuecomment-677776942).
 
 -------------------
 
