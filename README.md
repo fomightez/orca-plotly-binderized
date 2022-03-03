@@ -9,7 +9,7 @@ Click on any `launch binder` badge on this page to launch an active session that
 
 ----
 
-You MOST LIKELY DO NOT NEED THIS!!!
+You MOST LIKELY DO NOT NEED THIS REPO OR THE SESSION THAT LAUNCHES FROM IT!!!
 
 - Usually using [nbviewer](https://nbviewer.org/), Jupyter's supported notebook viewer, the interactive Plotly plots show up. Although Github's rendering has improved vastly of late, nbviewer remains the way to view and share static versions notebooks that are hosted on GitHub. Compare [this at Github](https://github.com/fomightez/3Dscatter_plot-binder/blob/master/Plotly3d-scatter-plots.ipynb) vs. [on nbviewer](https://nbviewer.org/github/fomightez/3Dscatter_plot-binder/blob/master/Plotly3d-scatter-plots.ipynb). Advise only relying on Github's viewer for a quick preview.
 
